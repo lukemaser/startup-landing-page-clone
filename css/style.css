@@ -46,3 +46,38 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* End reset */
+
+
+body {
+	background-color: LightGray;
+	font-family: "Helvetica Neue", "Open Sans";
+}
+div {
+	border: 1px solid Chocolate;
+}
+
+.top-navigation {
+	background-color: #FFF;
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid #DDD;
+	z-index: 9999;
+}
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+.links {
+	float: right;
+	display: inline;
+	margin-left: 1.5em;
+	font-weight: bold;
+	list-style: none;
+	
+}
+
+.content {
+
+}
