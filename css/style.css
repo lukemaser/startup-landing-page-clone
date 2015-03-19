@@ -5,6 +5,9 @@
 html {
 	box-sizing: border-box;
 }
+*, *:before, :after {
+	box-sizing: inherit;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -71,26 +74,37 @@ body {
 	width: 730px;
 	height: 70px;
 }
-.top-navigation .links > .active {
-	color: #4c5058;
-	font-weight: 600;
+.top-navigation .logo {
+	height: 70px;
 }
-.logo {
-	padding-top: 15px;
-}
-.links {
+.top-navigation .links {
 	float: right;
-	margin-top: 1.5rem;
-	display: inline-block;
-	list-style-type: none;	
+	font-family: 'Roboto', sans-serif;
+	color: #838994;
+	font-size: 16px;
+	margin-top: 25px;
+	-webkit-font-smoothing: antialiased;
 }
-li {
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 25px;
+}
+.top-navigation .links .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+.top-navigation .links li:hover {
+	cursor: pointer;
+	color: #3333333;
+
+}
+.top-navigation .links li {
 	margin-left: 1.7rem;
 	transition: color 0.2s ease;
 	display: inline-block;
 }
-li:hover {
-	color: #000;
+.top-navigation .links li:hover {
+	color: #333333;
 	cursor: pointer;
 }
 
