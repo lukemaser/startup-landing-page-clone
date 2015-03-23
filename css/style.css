@@ -59,17 +59,18 @@ body {
 	color: #838994; 
 	letter-spacing: 0.03em;
 }
-/*div {
+div {
 	border: 1px solid Chocolate;
 }
 /*-------------- Navigation Bar --------------*/
 .content {
 	padding: 0px 15px;
+	text-align: center;
 }
 .top-navigation {
 	background-color: #fff;
 }
-.top-navigation > .content {
+.top-navigation > .content, h1, h3 {
 	margin: 0 auto;
 	width: 730px;
 	height: 70px;
@@ -107,4 +108,39 @@ body {
 	color: #333333;
 	cursor: pointer;
 }
+.introduction {
+	background-image: url('../images/first-background.jpg');
+	background-position: center bottom;
+		background-position-x: 50%;
+		background-position-y: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+}
+.introduction > .content {
 
+}
+.introduction h1 {
+	padding-top: 17.5rem;
+	font-size: 3.125rem;
+}
+.introduction h1, .introduction h3 {
+	color: #fff;
+	text-align: center;
+	font-weight: 100;
+}
+
+.introduction h3 {
+	padding-top: 4.25rem;
+}
+.buttons {
+	margin: 0 auto;
+	text-align: center;
+}
+button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+}
