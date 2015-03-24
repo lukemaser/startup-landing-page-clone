@@ -65,6 +65,7 @@ div {
 /*-------------- Navigation Bar --------------*/
 .content {
 	padding: 0px 15px;
+	margin: 0px 256px;
 	text-align: center;
 }
 .top-navigation {
@@ -116,9 +117,10 @@ div {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 45.938rem;
+	overflow: auto;
 }
 .introduction > .content {
-	margin: 0 auto;
+
 }
 .introduction h1 {
 	margin-top: 17.5rem;
@@ -135,13 +137,22 @@ div {
 	font-size: 1.563rem;
 }
 .buttons {
-	margin: 0 auto;
+	margin-top: 1.563rem;
 	text-align: center;
 }
 button {
+	width: 9.688rem;
+	background-color: #f15a29;
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
-    padding: 16px 26px;
+    padding: 1rem 1.5rem;
     line-height: 1.33;
+    color: #fff;
+    font-size: 1.125rem;
+}
+button:hover {
+	background-color: #d9400e;
+	border-color: #cf3d0e;
+	cursor: pointer;
 }
