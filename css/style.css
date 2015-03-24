@@ -62,6 +62,12 @@ body {
 div {
 	border: 1px solid Chocolate;
 }
+h2 {
+	display: block;
+}
+li {
+	text-align: -webkit-match-parent;
+}
 /*-------------- Navigation Bar --------------*/
 .content {
 	padding: 0px 15px;
@@ -149,10 +155,38 @@ button {
     padding: 1rem 1.5rem;
     line-height: 1.33;
     color: #fff;
+    font: inherit;
     font-size: 1.125rem;
 }
 button:hover {
 	background-color: #d9400e;
 	border-color: #cf3d0e;
 	cursor: pointer;
+}
+.cases {
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 5rem;
+}
+.cases .content {
+	margin-top: 7.875rem;
+	color: #1d1e21;
+	text-align: center;
+}
+.cases h2 {
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;
+}
+.cases .devices > li {
+	width: 33.3333333%;
+	float: left;
+}
+.devices {
+	display: inline-block;
+}
+.cases .devices h3 {
+	font-weight: 400;
+	font-size: 1.756rem;
+	margin: 2.5rem 0px 1.875rem;
 }
