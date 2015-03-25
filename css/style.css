@@ -60,7 +60,7 @@ body {
 	letter-spacing: 0.03em;
 }
 div {
-	border: 1px solid Chocolate;
+	border: 1px none Chocolate;
 }
 h2 {
 	display: block;
@@ -75,9 +75,12 @@ li {
 	text-align: center;
 }
 .top-navigation {
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 	background-color: #fff;
 }
-.top-navigation > .content, h1, h3 {
+.top-navigation > .content, h1,  {
 	margin: 0 auto;
 	width: 730px;
 	height: 70px;
@@ -170,6 +173,7 @@ button:hover {
 }
 .cases .content {
 	margin-top: 7.875rem;
+	padding: none;
 	color: #1d1e21;
 	text-align: center;
 }
@@ -185,7 +189,7 @@ button:hover {
 .devices {
 	display: inline-block;
 }
-.cases .devices h3 {
+.cases .devices, h3 {
 	font-weight: 400;
 	font-size: 1.756rem;
 	margin: 2.5rem 0px 1.875rem;
