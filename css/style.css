@@ -27,6 +27,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	-webkit-font-smoothing: anitaliased;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -82,6 +83,7 @@ ul {
 	width: 100%;
 	z-index: 9999;
 	background-color: #fff;
+	border-bottom: 1px solid #ddd;
 }
 .top-navigation > .content, h1,  {
 	margin: 0 auto;
@@ -203,7 +205,7 @@ button:hover {
 .social {
 	background-color: #fff;
 	overflow: auto;
-	padding-bottom: 9rem;
+	padding-bottom: 8rem;
 	text-align: center;
 }
 .social .content {
@@ -226,5 +228,32 @@ button:hover {
 	margin: 1.25rem 5px;
 	display: inline-block;
 	border: 1px solid #eaebec;
-	padding: 0.59683rem 0;
+	padding: 0.7rem 0;
+}
+.social .twitter {
+	color: #55acee;
+}
+.social .facebook {
+	color: #4c66a4;
+}
+.social .instagram {
+	color: #3f729b;
+}
+.twitter:hover {
+	cursor: pointer;
+	background-color: #55acee;
+	color: #fff;
+	transition: color 0.7s ease;
+}
+.facebook:hover {
+	cursor: pointer;
+	background-color: #4c66a4;
+	color: #fff;
+	transition: color 0.7s ease;
+}
+.instagram:hover {
+	cursor: pointer;
+	background-color: #3f729b;
+	color: #fff;
+	transition: color 0.7s ease;
 }
