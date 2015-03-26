@@ -68,6 +68,9 @@ h2 {
 li {
 	text-align: -webkit-match-parent;
 }
+ul {
+	list-style: none;
+}
 /*-------------- Navigation Bar --------------*/
 .content {
 	padding: 0px 15px;
@@ -193,4 +196,32 @@ button:hover {
 	font-weight: 400;
 	font-size: 1.756rem;
 	margin: 2.5rem 0px 1.875rem;
+}
+.social {
+	background-color: #fff;
+	overflow: auto;
+	padding-bottom: 9rem;
+	text-align: center;
+}
+.social .content {
+	color: #000;
+}
+.social .copy {
+	font-weight: 200;
+	color: #838994;
+}
+.social hr {
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 1.313rem 0;
+}
+
+.social .icons > li {
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	margin: 1.25rem 5px;
+	display: inline-block;
+	border: 1px solid #eaebec;
+	padding: 0.59683rem 0;
 }
