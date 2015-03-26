@@ -121,6 +121,7 @@ ul {
 	color: #333333;
 	cursor: pointer;
 }
+/*--------- Introduction -----------*/
 .introduction {
 	background-image: url('../images/first-background.jpg');
 	background-position: center bottom;
@@ -169,6 +170,7 @@ button:hover {
 	border-color: #cf3d0e;
 	cursor: pointer;
 }
+/*--------- Cases -----------*/
 .cases {
 	background-color: #fff;
 	overflow: hidden;
@@ -197,6 +199,7 @@ button:hover {
 	font-size: 1.756rem;
 	margin: 2.5rem 0px 1.875rem;
 }
+/*--------- Footer -----------*/
 .social {
 	background-color: #fff;
 	overflow: auto;
