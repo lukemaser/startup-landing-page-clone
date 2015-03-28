@@ -52,6 +52,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*--------------- Mobile ---------------------*/
+@media only screen and (max-width: 500px) {
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
 /*------------- End reset --------------------*/
 body {
 	background-color: LightGray;
